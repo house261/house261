@@ -1,8 +1,11 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
-{% assign author = site.data.authors[author] | default: author %}
+{% for author in site.data.authors %}
+  {% if page.author == author.nick %}
+    {% assign author = site.data.authors[author] | default: author %}
+  {% endif %}
+{% endfor %}
 
 <div itemscope itemtype="https://schema.org/Person">
-
   {% if author.avatar %}
     <div class="author__avatar">
       {% if author.avatar contains "://" %}
@@ -27,8 +30,8 @@
   {% endif %}
 
   <div class="author__content">
-    {% if author.home %}
-      <a href="{{ author_link }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
+    {% if author.nick %}
+      <a href="{{site.baseurl}}/authors/{{ author.nick }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
     {% else %}
       <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
     {% endif %}

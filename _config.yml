@@ -20,7 +20,7 @@ title: ""
 title_separator: "-"
 subtitle: "주식회사 261하우스 기술 블로그"
 name: "주식회사 261하우스 기술 블로그"
-description: "영상 쇼핑 플랫폼 패브(faav)를 만들고 있는 주식회사 261하우스의 기술 블로그입니다.."
+description: "영상 쇼핑 플랫폼 패브(faav)를 만들고 있는 주식회사 261하우스의 기술 블로그입니다."
 url: "https://house261.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "house261/house261.github.io"
@@ -109,7 +109,7 @@ analytics:
 author:
   name: "261 Developers"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Angular / Nestjs / AWS / ELK"
+  bio: "영상 쇼핑 플랫폼 패브(faav)를 만들고 있는 주식회사 261하우스의 기술 블로그입니다."
   email: "tonystark@261house.com"
   links:
     - label: "Email"

@@ -1,0 +1,12 @@
+---
+layout: category
+---
+{% for post in site.posts %}
+{% if post.author == page.author %}
+{% include archive-single.html type=page.entries_layout %}
+{% if forloop.last == false %}
+<hr>
+{% endif %}
+
+{% endif %}
+{% endfor %}

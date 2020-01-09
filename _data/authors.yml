@@ -1,26 +1,116 @@
 # authors 공용 변수
-- name: tonystark
-  koname: 마상범
-  email: tonystark@261house.com
-  position: CTO
-  img: /assets/profile/tonystark.jpg
-- name: tonystark
-  koname: 마상범
-  email: tonystark@261house.com
-  position: CTO
-  img: /assets/profile/tonystark.jpg
-- name: tonystark
-  koname: 마상범
-  email: tonystark@261house.com
-  position: CTO
-  img: /assets/profile/tonystark.jpg
-- name: tonystark
-  koname: 마상범
-  email: tonystark@261house.com
-  position: CTO
-  img: /assets/profile/tonystark.jpg
-- name: tonystark
-  koname: 마상범
-  email: tonystark@261house.com
-  position: CTO
-  img: /assets/profile/tonystark.jpg
+- name: 마상범
+  bio: Tonystark - CTO
+  avatar: /assets/profile/tonystark.jpg
+  nick: tonystark
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: tonystark@261house.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+#      url: "https://www.faav.co.kr"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/masangbeom"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+#      url: "https://www.instagram.com/faav.official"
+- name: 옥제헌
+  bio: Rangrang - 프론트엔드 개발
+  avatar: /assets/profile/rangrang.jpg
+  nick: rangrang
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: arang01379@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+    #      url: "https://www.faav.co.kr"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/masangbeom"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+  #      url: "https://www.instagram.com/faav.official"
+- name: 전창민
+  bio: Mansour - 백엔드 개발
+  avatar: /assets/profile/mansour.jpg
+  nick: mansour
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: 1008jcm@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+    #      url: "https://www.faav.co.kr"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/masangbeom"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+  #      url: "https://www.instagram.com/faav.official"
+- name: 진하용
+  bio: H.Dragon - 프론트엔드 개발
+  avatar: /assets/profile/hdragon.jpg
+  nick: hdragon
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: jinhy0221@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+    #      url: "https://www.faav.co.kr"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/masangbeom"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+  #      url: "https://www.instagram.com/faav.official"
+- name: 박성현
+  bio: DyBaLaBak - 프론트엔드 개발
+  avatar: /assets/profile/dybalabak.jpg
+  nick: dybalabak
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: dybalabak@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+    #      url: "https://www.faav.co.kr"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/masangbeom"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+  #      url: "https://www.instagram.com/faav.official"
