@@ -1,5 +1,7 @@
 ---
 title: "Angular"
+author_profile: true
 layout: category
-permalink: /angular/
+permalink: /categories/angular/
+taxonomy: Angular
 ---

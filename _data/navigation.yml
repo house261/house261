@@ -1,15 +1,15 @@
 # main links
 main:
   - title: "Angular"
-    url: /angular/
+    url: /categories/angular/
   - title: "Nestjs"
-    url: /nestjs/
+    url: /categories/nestjs/
   - title: "AWS"
-    url: /aws/
+    url: /categories/aws/
   - title: "ELK"
-    url: /elk/
+    url: /categories/elk/
   - title: "Etc"
-    url: /etc/
+    url: /categories/etc/
   - title: "About"
     url: /about/
   # - title: "Sample Posts"
