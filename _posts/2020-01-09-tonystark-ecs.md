@@ -1,14 +1,12 @@
 ---
 # 포스트 제목을 기재합니다.
-title:  "261하우스 기술 블로그 시작" 
+title:  "ECS 란" 
 # 저자를 입력합니다. 
 author: "tonystark"
 # 카테고리를 입력합니다.
 categories: ["AWS"]
 last_modified_at: 2020-01-09T08:15:00-18:00
 ---
-
-# ECS - AWS
 
 # AWS 엘라스틱 컨테이너 서비스 기초
 
