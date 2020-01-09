@@ -1,7 +1,7 @@
 ---
-layout: home
+layout: single
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 주식회사 261하우스 의 개술 블로그입니다.
