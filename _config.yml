@@ -130,7 +130,11 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/faav.official"
-
+# Collections
+collections:
+  authors:
+    title: Authors
+    output: true
 # Site Footer
 footer:
   links:
