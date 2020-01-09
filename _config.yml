@@ -24,7 +24,7 @@ description: "영상 쇼핑 플랫폼 패브(faav)를 만들고 있는 주식회
 url: "https://house261.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "house261/house261.github.io"
-teaser: "/assets/images/banner.jpg"
+teaser: "/assets/images/logo.jpg"
 logo: "/assets/images/logo.jpg"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
