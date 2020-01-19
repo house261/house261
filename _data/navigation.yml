@@ -1,17 +1,17 @@
 # main links
 main:
-  - title: "Angular"
-    url: /categories/angular/
-  - title: "Nestjs"
-    url: /categories/nestjs/
-  - title: "AWS"
-    url: /categories/aws/
-  - title: "ELK"
-    url: /categories/elk/
-  - title: "ETC"
-    url: /categories/etc/
-  - title: "About"
-    url: /about/
+#  - title: "Angular"
+#    url: /categories/angular/
+#  - title: "Nestjs"
+#    url: /categories/nestjs/
+#  - title: "AWS"
+#    url: /categories/aws/
+#  - title: "ELK"
+#    url: /categories/elk/
+#  - title: "ETC"
+#    url: /categories/etc/
+#  - title: "About"
+#    url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
