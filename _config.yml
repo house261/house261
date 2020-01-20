@@ -16,8 +16,8 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "ko"
-title: "주식회사 261하우스 기술 블로그"
-title_separator: "-"
+title: "261하우스 기술 블로그"
+tile_separator: "-"
 subtitle: # "주식회사 261하우스 기술 블로그"
 name: "주식회사 261하우스 기술 블로그"
 description: "영상 쇼핑 플랫폼 패브(faav)를 만들고 있는 주식회사 261하우스의 기술 블로그입니다."
@@ -26,7 +26,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: "house261/house261.github.io"
 teaser: "/assets/images/logo.jpg"
 logo: "/assets/images/logo.jpg"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "261하우스 기술 블로그"
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:

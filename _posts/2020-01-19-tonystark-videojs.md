@@ -7,10 +7,8 @@ author: "tonystark"
 categories: ["Angular"]
 # 태그를 입력합니다.
 tags: ["Angular"]
-last_modified_at: 2020-01-09T08:06:00-05:00
+last_modified_at: 2020-01-20T08:10:00-11:00
 ---
-# Angular에 Video.js 적용하기
-
 # Video.js
 
 ![Video.js]({{site.baseurl}}/assets/images/tonystark/videojs.png)
