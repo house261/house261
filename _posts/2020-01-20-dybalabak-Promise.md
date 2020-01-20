@@ -33,6 +33,7 @@ Constructor 와 ngOnInit에 대해 조금 더 자세하게 알아보자.
 
 ## Constructor란?
 
+
 위 첨부된 사진에서,
 Constructor는 typescript class의 predefined default method 이다.
 
@@ -52,12 +53,14 @@ Angular는 Constructor의 parameter를 analyse하고,
 
 ## ngOnInit이란?
 
+
 **Angular life cycle hooks**중에 하나인 ngOnInit은,
+
 Angular가 컴포넌트 초기화를 완료했다는 점을 전달하기 위해 존재한다.
 
 
-Constructor 상에서도 work를 수행할 수 있지만,
-binding related work는 ngOnInit상에서 수행함이 바람직하다.
+**한마디로 쉽게요약하면,Constructor 상에서도 work를 수행할 수 있지만,
+binding related work는 ngOnInit상에서 수행함이 바람직하다.**
 
 
 
