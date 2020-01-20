@@ -10,6 +10,7 @@ tags: ["ETC"]
 last_modified_at: 2020-01-20T11:15:00-12:00
 ---
 # Contructor VS ngOnInit
+
 ![posting]({{site.baseurl}}/assets/images/dybalabak/posting.png)
 
 필자는 2학년을 수료하고 학교앞에서 실습을 진행중이다.
@@ -27,6 +28,7 @@ Contructor 와 ngOnInit이 동일한 class 안에서 양립함에 있어
 또, **대충** ngOnInit에서 해당 Component가 필요한 작업을 행함을 강하게 느낄 수 있다.
 
 Constructor 와 ngOnInit에 대해 조금 더 자세하게 알아보자.
+
 
 
 
