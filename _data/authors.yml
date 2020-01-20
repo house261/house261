@@ -68,8 +68,8 @@
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
   #      url: "https://www.instagram.com/faav.official"
-- name: 진하용
-  bio: H.Dragon - 프론트엔드 개발
+- name: H.Dragon
+  bio: 프론트엔드 개발
   avatar: /assets/profile/hdragon.jpg
   nick: hdragon
   links:
@@ -81,7 +81,7 @@
     #      url: "https://www.faav.co.kr"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+#      url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
