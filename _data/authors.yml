@@ -67,7 +67,7 @@
 #      url: "https://github.com/masangbeom"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-        url: "https://www.instagram.com/chaangmeen"
+      url: "https://www.instagram.com/chaangmeen"
 - name: H.Dragon
   bio: 프론트엔드 개발
   avatar: /assets/profile/hdragon.jpg
