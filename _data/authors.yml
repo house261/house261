@@ -52,7 +52,7 @@
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: 1008jcm@gmail.com
+      url: "1008jcm@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
     #      url: "https://www.faav.co.kr"
@@ -67,9 +67,9 @@
 #      url: "https://github.com/masangbeom"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-  #      url: "https://www.instagram.com/faav.official"
-- name: 진하용
-  bio: H.Dragon - 프론트엔드 개발
+      url: "https://www.instagram.com/miaossii"
+- name: H.Dragon
+  bio: 프론트엔드 개발
   avatar: /assets/profile/hdragon.jpg
   nick: hdragon
   links:
