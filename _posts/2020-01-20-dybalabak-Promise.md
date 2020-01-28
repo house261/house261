@@ -19,7 +19,7 @@ Angular에 대한 기초지식이 많이 부족한 상태에서,
 Contructor 와 ngOnInit이 동일한 class 안에서 양립함에 있어
 불편함을 밤세 참을 수 없었다 **(학점이 낮은 이유)**
 
-설명에 앞서 **Angular life cycle hook**에 대한 지식을 선수하면 조금 더 수월하게 이해 수 있다.
+설명에 앞서 **[Angular LifeCycle Hook](https://house261.github.io/angular/dybalabak-LifeCylcleHook/)(constructor와 ngOnInit을 console값을 찍어줘 차이점 확인하는부분)**에 대한 지식을 선수하면 조금 더 수월하게 이해 수 있다.
 
 위 첨부된 사진을 보면, **대충** Constructor에서 어떠한 Dependency Injection이
 이루어 지고, JAVA의 Baseball baseball = new Baseball()의 향기가 강하게 풍긴다.
@@ -27,9 +27,6 @@ Contructor 와 ngOnInit이 동일한 class 안에서 양립함에 있어
 또, **대충** ngOnInit에서 해당 Component가 필요한 작업을 행함을 강하게 느낄 수 있다.
 
 Constructor 와 ngOnInit에 대해 조금 더 자세하게 알아보자.
-
-
-
 
 
 ## Constructor란?
