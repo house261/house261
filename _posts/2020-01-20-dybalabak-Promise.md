@@ -12,7 +12,6 @@ last_modified_at: 2020-01-20T11:15:00-12:00
 # Contructor VS ngOnInit
 ![posting]({{site.baseurl}}/assets/images/dybalabak/posting.png)
 
-필자는 2학년을 수료하고 학교앞에서 실습을 진행중이다.
 
 Angular에 대한 기초지식이 많이 부족한 상태에서,
 
