@@ -48,7 +48,7 @@ implements 해주어, 로직을 변경,처리 해주면 된다.
 우선, 해당 시점을 하나하나 살펴보기위해, 버튼을 눌리면 숫자가 올라가는 
 초기 세팅을 해주자.
 
-```typescript
+```
 //app.component.ts
 
 import { Component } from '@angular/core';
@@ -66,7 +66,7 @@ export class AppComponent {
   }
 }
 ```
-```typescript
+```
 //blogtest.component.ts
 
 import {Component, Input, OnInit} from '@angular/core';
@@ -91,7 +91,7 @@ export class BlogtestComponent implements OnInit {
 
 위와 같이 세팅한 후,
 
-```typescript
+```
 ///blogtest.component.ts
 
 import {Component, Input, OnInit} from '@angular/core';
@@ -133,7 +133,7 @@ constructor 와 ngOnInit에 console을 찍어줘 보자.
  
  이번에는, ngOnChanges() 와 ngDoCheck()를 implements 하여 기능 시점을 확인해 보자.
  
-```typescript
+```
 //blogtest.component.ts
 
 import {Component, DoCheck, Input, OnChanges, OnInit} from '@angular/core';
@@ -171,7 +171,7 @@ export class BlogtestComponent implements OnInit, OnChanges, DoCheck {
 
 그런데, 여기서 ngOnChanges 와 ngDoCheck의 큰 차이점은,
 
-```typescript
+```
 //app.component.ts
 
 import { Component } from '@angular/core';
@@ -194,7 +194,7 @@ export class AppComponent {
 
 ```
 
-```typescript
+```
 //blogtest.component.ts
 
 import {Component, DoCheck, Input, OnChanges, OnInit} from '@angular/core';
@@ -225,7 +225,7 @@ export class BlogtestComponent implements OnInit, OnChanges, DoCheck {
 }
 ```
 
-```html
+```
 //app.component.html
 
 <h2>{{title}}</h2>
@@ -234,7 +234,7 @@ export class BlogtestComponent implements OnInit, OnChanges, DoCheck {
 
 ```
 
-```html
+```
 //blogtest.component.html
 
 <p>{{obj.num}}</p>
