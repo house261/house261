@@ -50,6 +50,7 @@ implements 해주어, 로직을 변경,처리 해주면 된다.
 
 ```
 //app.component.ts
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -67,6 +68,7 @@ export class AppComponent {
 ```
 ```
 //blogtest.component.ts
+
 import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
@@ -90,6 +92,7 @@ export class BlogtestComponent implements OnInit {
 
 ```
 ///blogtest.component.ts
+
 import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
@@ -125,11 +128,13 @@ constructor 와 ngOnInit에 console을 찍어줘 보자.
  여하튼, 위쪽에서 명시한 ngOnInit의 기능이 수행되는 시점을 확인했다.
  
  
+ ##ngOnChanges,ngDoCheck
  
  이번에는, ngOnChanges() 와 ngDoCheck()를 implements 하여 기능 시점을 확인해 보자.
  
 ```
 //blogtest.component.ts
+
 import {Component, DoCheck, Input, OnChanges, OnInit} from '@angular/core';
 
 @Component({
@@ -161,8 +166,88 @@ export class BlogtestComponent implements OnInit, OnChanges, DoCheck {
 
 ![lifecycle4]({{site.baseurl}}/assets/images/dybalabak/lifecycle4.png)
 
+위의 lifecycle 순서, 각각의 기능 시점에 정상적으로 작동함을 확인 할 수 있다.
+
+그런데, 여기서 ngOnChanges 와 ngDoCheck의 큰 차이점은,
+
+```
+//app.component.ts
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'blogtest';
+  obj = {
+    num: 0
+  };
+
+  Plus() {
+    this.obj.num++;
+  }
+}
+
+```
+
+```
+//blogtest.component.ts
+
+import {Component, DoCheck, Input, OnChanges, OnInit} from '@angular/core';
+
+@Component({
+  selector: 'app-blogtest',
+  templateUrl: './blogtest.component.html',
+  styleUrls: ['./blogtest.component.css']
+})
+export class BlogtestComponent implements OnInit, OnChanges, DoCheck {
+  @Input() obj;
+
+  constructor() {
+    console.log('constructor', this.obj);
+  }
+
+  ngOnInit() {
+    console.log('ngOnInit()', this.obj);
+  }
+
+  ngOnChanges() {
+    console.log('ngOnChanges()', this.obj);
+  }
+
+  ngDoCheck() {
+    console.log('ngDoCheck()', this.obj);
+  }
+}
+```
+
+```
+//app.component.html
+
+<h2>{{title}}</h2>
+<p><button (click)="Plus()">LifeCycle</button></p>
+<app-blogtest [obj]="obj"></app-blogtest>
+
+```
+
+```
+//blogtest.component.html
+
+<p>{{obj.num}}</p>
+
+```
+Input property를 객체로 바꾸었을때, 초기화 단계까지는 같고,
+
+위의 Input property가 어떤 숫자값으로 주어 졌을때 가르키는 객체 자체가 변할때 ngOnChanges와 ngDoCheck가 같이 불리고,
+
+위와같이 가르키는 객체 자체가 변하지 않고 그 안의 property가 변할때 ngDoCheck는 그 변화를 감지해준다.
+
+나머지 다양한 lifecycle들도 해당 시점에 console을 찍어 가며 확인하며 학습하면 된다.
 
 
-
-
+##마무리
+여하튼, 필요한 시점에 로직을 변경하고 처리할때 Life Cycle Hook의 이해는 필수적으로 보인다... 
 
