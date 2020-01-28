@@ -48,7 +48,7 @@ implements 해주어, 로직을 변경,처리 해주면 된다.
 우선, 해당 시점을 하나하나 살펴보기위해, 버튼을 눌리면 숫자가 올라가는 
 초기 세팅을 해주자.
 
-```
+```typescript
 //app.component.ts
 
 import { Component } from '@angular/core';
@@ -66,7 +66,7 @@ export class AppComponent {
   }
 }
 ```
-```
+```typescript
 //blogtest.component.ts
 
 import {Component, Input, OnInit} from '@angular/core';
@@ -87,10 +87,11 @@ export class BlogtestComponent implements OnInit {
 ```
 ![lifecycle2]({{site.baseurl}}/assets/images/dybalabak/lifecycle2.png)
 
-##ngOnInit
+## ngOnInit
+
 위와 같이 세팅한 후,
 
-```
+```typescript
 ///blogtest.component.ts
 
 import {Component, Input, OnInit} from '@angular/core';
@@ -128,11 +129,11 @@ constructor 와 ngOnInit에 console을 찍어줘 보자.
  여하튼, 위쪽에서 명시한 ngOnInit의 기능이 수행되는 시점을 확인했다.
  
  
- ##ngOnChanges,ngDoCheck
+## ngOnChanges,ngDoCheck
  
  이번에는, ngOnChanges() 와 ngDoCheck()를 implements 하여 기능 시점을 확인해 보자.
  
-```
+```typescript
 //blogtest.component.ts
 
 import {Component, DoCheck, Input, OnChanges, OnInit} from '@angular/core';
@@ -170,7 +171,7 @@ export class BlogtestComponent implements OnInit, OnChanges, DoCheck {
 
 그런데, 여기서 ngOnChanges 와 ngDoCheck의 큰 차이점은,
 
-```
+```typescript
 //app.component.ts
 
 import { Component } from '@angular/core';
@@ -193,7 +194,7 @@ export class AppComponent {
 
 ```
 
-```
+```typescript
 //blogtest.component.ts
 
 import {Component, DoCheck, Input, OnChanges, OnInit} from '@angular/core';
@@ -224,7 +225,7 @@ export class BlogtestComponent implements OnInit, OnChanges, DoCheck {
 }
 ```
 
-```
+```html
 //app.component.html
 
 <h2>{{title}}</h2>
@@ -233,7 +234,7 @@ export class BlogtestComponent implements OnInit, OnChanges, DoCheck {
 
 ```
 
-```
+```html
 //blogtest.component.html
 
 <p>{{obj.num}}</p>
@@ -248,6 +249,7 @@ Input property를 객체로 바꾸었을때, 초기화 단계까지는 같고,
 나머지 다양한 lifecycle들도 해당 시점에 console을 찍어 가며 확인하며 학습하면 된다.
 
 
-##마무리
+## 마무리
+
 여하튼, 필요한 시점에 로직을 변경하고 처리할때 Life Cycle Hook의 이해는 필수적으로 보인다... 
 
